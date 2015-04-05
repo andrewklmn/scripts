@@ -18,7 +18,7 @@ UserPost, UserRoleId, UserCreateDate, UserLogin, UserPassword, UserSalt, Logging
 UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, ValidDays, InterfaceLanguage,
 OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Гвоздев', 'Дмитрий', 'Сергеевич', 'администратор системы', 1, 
-'2013-01-01 00:00:00', 'dmitry', MD5('123'), 'iuy', 5, 0, 0, 0, 0, '2014-03-01 13:00:00', 180, 
+'2013-01-01 00:00:00', 'dmitry', MD5('123'), 'iuy', 5, 0, 0, 0, 0, '2014-03-01 13:00:00', 1201, 
 'Russian', 'Гвоздев', 'Дмитрий', 'Сергеевич', 'администратор системы','Гвоздева','Гвоздева','Гвоздевым','Гвоздевым');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
@@ -27,7 +27,7 @@ UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, Val
 OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Клименюк', 'Андрей', 'Юрьевич', 'администратор системы', 1, 
 '2013-01-01 00:00:00', 'andrew', MD5('123'), 'iuy', 5, 0, 
-0, 0, 0, '2014-03-01 13:00:00', 180, 'English', 'Клименюк', 'Андрей', 'Юрьевич','администратор системы','Клименюка','Клименюка','Клименюком','Клименюком');
+0, 0, 0, '2014-03-01 13:00:00', 1201, 'English', 'Клименюк', 'Андрей', 'Юрьевич','администратор системы','Клименюка','Клименюка','Клименюком','Клименюком');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
 UserPost, UserRoleId, UserCreateDate, UserLogin, UserPassword, UserSalt, LoggingAttemptsLimit, BadLogAttempts, 
@@ -36,7 +36,7 @@ Phone, CurrentScenario,
 OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, OldPhone, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Александров', 'Егор', 'Викторович', 'контролёр', 2, 
 '2013-01-01 00:00:00', 'egor', MD5('123'), 'iuy', 5, 0, 
-0, 0, 0, '2014-03-01 13:00:00', 180, 1, 'Russian','+79213123133', 1,
+0, 0, 0, '2014-03-01 13:00:00', 1201, 1, 'Russian','+79213123133', 1,
 'Александров', 'Егор', 'Викторович', 'контролёр', '+79213123133','Александрова','Александрова','Александровым','Александровым');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
@@ -45,7 +45,7 @@ UserIsBlocked, UserLogicallyDeleted, ChangePassword,  LastChangePasswordDate, Va
 Phone, CurrentScenario, OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, OldPhone, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Черенкова', 'Светлана', 'Николаевна', 'старший кассир', 
 3, '2013-01-01 00:00:00', 'sveta', MD5('123'), 'iuy', 5, 0, 
-0, 0, 0, '2014-03-01 13:00:00', 180, 1, 'Russian', '+79144882061', 1,
+0, 0, 0, '2014-03-01 13:00:00', 1201, 1, 'Russian', '+79144882061', 1,
 'Черенкова', 'Светлана', 'Николаевна', 'старший кассир', '+79144882061','Черенковой','Черенковой','Черенковой','Черенковой');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
@@ -54,7 +54,7 @@ UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, Val
 Phone, CurrentScenario, OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, OldPhone, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Андрианова', 'Юлия', 'Вячеславовна', 'кассир', 
 3, '2013-01-01 00:00:00', 'julia', MD5('123'), 'iuy', 5, 0, 
-0, 0, 0, '2014-03-01 13:00:00', 180, 1, 'Russian', '+79032370995', 1,
+0, 0, 0, '2014-03-01 13:00:00', 1201, 1, 'Russian', '+79032370995', 1,
 'Андрианова', 'Юлия', 'Вячеславовна', 'кассир', '+79032370995','Андриановой','Андриановой','Андриановой','Андриановой');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
@@ -63,21 +63,21 @@ UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, Val
 OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Бабаев', 'Александр', 'Александрович', 'администратор по безопасности', 
 4, '2013-01-01 00:00:00', 'alex', MD5('123'), 'iuy', 5, 0, 0, 0, 0, '2014-03-01 13:00:00',
-180, 'Russian','Бабаев','Александр','Александрович','администратор по безопасности','Бабаева','Бабаева','Бабаевым','Бабаевым');
+1201, 'Russian','Бабаев','Александр','Александрович','администратор по безопасности','Бабаева','Бабаева','Бабаевым','Бабаевым');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
 UserPost, UserRoleId, UserCreateDate, UserLogin, UserPassword, UserSalt, LoggingAttemptsLimit, BadLogAttempts, 
 UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, ValidDays, InterfaceLanguage)
 values ('Разработчик', 'Р', 'Р', 'разработчик', 
 5, '2013-03-01 00:00:00', 'developer', MD5('123'), 'iuy', 10, 0, 
-0, 0, 0, '2014-01-01 13:00:00', 900, 'English');
+0, 0, 0, '2014-01-01 13:00:00', 1201, 'English');
 
 insert into UserConfiguration (UserFamilyName, UserFirstName, UserPatronymic,
 UserPost, UserRoleId, UserCreateDate, UserLogin, UserPassword, UserSalt, LoggingAttemptsLimit, BadLogAttempts, 
 UserIsBlocked, UserLogicallyDeleted, ChangePassword, LastChangePasswordDate, ValidDays, CashRoomId, InterfaceLanguage,
 Phone, CurrentScenario, OldUserFamilyName, OldUserFirstName, OldUserPatronymic, OldUserPost, OldPhone, GenetiveName, OldGenetiveName, InstrName, OldInstrName)
 values ('Никифорова', 'Ирина', 'Геннадьевна', 'контролёр', 2, '2013-01-01 00:00:00', 'ira', MD5('123'), 'iuy',
-5, 0, 0, 0, 0, '2014-01-01 13:00:00', 180, 1, 'Russian', '+380679488367', 1,
+5, 0, 0, 0, 0, '2014-01-01 13:00:00', 1201, 1, 'Russian', '+380679488367', 1,
 'Никифорова', 'Ирина', 'Геннадьевна', 'контролёр', '+380679488367','Никифоровой','Никифоровой','Никифоровой','Никифоровой');
 
 insert into UsersIP (UserId, IP) values (1, '%');
