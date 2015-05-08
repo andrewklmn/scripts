@@ -90,9 +90,8 @@ insert into UsersIP (UserId, IP) values (7, '%');
 insert into UsersIP (UserId, IP) values (8, '%');
 
 
-INSERT INTO SorterTypes (SorterTypeId, SorterType) VALUES (1, 'FS-2000');
+INSERT INTO SorterTypes (SorterTypeId, SorterType) VALUES (1, 'Cummins Allison');
 INSERT INTO SorterTypes (SorterTypeId, SorterType) VALUES (2, 'Cobra');
-INSERT INTO SorterTypes (SorterTypeId, SorterType) VALUES (3, 'Glory');
 
 INSERT INTO CashRooms (CashRoomName) VALUES ('№ 1');
 INSERT INTO CashRooms (CashRoomName) VALUES ('№ 2');
@@ -100,17 +99,19 @@ INSERT INTO CashRooms (CashRoomName) VALUES ('№ 2');
 insert into DepositIndex (IndexValue, IndexLabel) values (3, 'годные');
 insert into DepositIndex (IndexValue, IndexLabel) values (4, 'ветхие');
 insert into DepositIndex (IndexValue, IndexLabel) values (5, 'в упаковке кредитных организаций');
+insert into DepositIndex (IndexValue, IndexLabel) values (10, 'для Сервисного центра МРХ СПб');
 
 insert into SorterIndexes (IndexName, DepositIndexId) values ('Index_3', 1);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('Index_4', 2);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('Index_5', 3);
+insert into SorterIndexes (IndexName, DepositIndexId) values ('Index_10', 4);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 3', 1);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 4', 2);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 5', 3);
 
 
 insert into Machines (SorterName, SorterTypeId, SorterVariant, Softwarerelease, CashRoomId) values
-('0007', 1 , 'FS-2000', '1', 1);
+('0007', 1 , 'JetScan iFX427', '1', 1);
 
 insert into Machines (SorterName, SerialNumber, SorterTypeId, SorterVariant, Softwarerelease, CashRoomId,
 NetworkAddress, NetworkMask, NetworkPort, MachineLogin, MachinePass, MachineDatabaseName) values
@@ -374,7 +375,7 @@ ComplexName, DefaultLanguage, AllowRecBySupervisor, FastenUserToIp, UseGenitiveN
 044083002,
 43,
 43,
-'АПК на базе ССМ Кобра-4004', 'Russian', 0, 1, 1);
+'АПК на базе ССМ Cummins JetScan iFX427', 'Russian', 0, 1, 1);
 
 
 insert into UserHashHistory (UserId, oldHash) values (1, MD5('123'));
