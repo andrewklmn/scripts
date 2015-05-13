@@ -108,7 +108,7 @@ insert into SorterIndexes (IndexName, DepositIndexId) values ('Index_10', 4);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 3', 1);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 4', 2);
 insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 5', 3);
-
+insert into SorterIndexes (IndexName, DepositIndexId) values ('инд. 10', 4);
 
 insert into Machines (SorterName, SorterTypeId, SorterVariant, Softwarerelease, CashRoomId) values
 ('0007', 1 , 'JetScan iFX427', '1', 1);
