@@ -1126,7 +1126,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `cashmaster`.`Prebook`;
 CREATE  TABLE IF NOT EXISTS `cashmaster`.`Prebook` (
-  `Id` BIGINT(20) NOT NULL ,
+  `Id` BIGINT(20) NOT NULL AUTO_INCREMENT ,
   `PackId` VARCHAR(30) NOT NULL ,
   `Filename` VARCHAR(40) NOT NULL ,
   `CashroomId` BIGINT(20) NOT NULL ,
